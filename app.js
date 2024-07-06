@@ -174,6 +174,17 @@
         // cosnole.log(`print the receipt`)
     // }  
 
+ // Check values always by !!(enter value without the paranthesis)
+ //way to check if the value is truthy or falsy !!val  
+//let val = "";
+
+//if (val) {
+//    console.log(!!val)
+//}
+//else {
+//    console.log(!!val)
+//}
+
 
 //TERNARY OPERATIONS
 
@@ -188,6 +199,24 @@
      * let str = subscribed && loggedIn ? 'show video' : 'hide video'
      * console.log(str)
      */
+//This is the same as this 
+    //let subscribed = true
+    //let loggedIn = true
+
+    //if (subscribed) {
+        //console.log('show the video')
+    //}
+    //else {
+        //console.log('hide the video')
+    //}
+
+//same as exercise 3 below    
+//let cash = 50;
+//let price = 40;
+//let isStoreOpen = true;
+
+//let str = cash >= 40 && isStoreOpen ? 'give receipt' : 'do not give receipt'
+//console.log(str);
 
 //Exercise 3 
     //let cash = 50 
@@ -198,6 +227,15 @@
     //console.log(str)
 
 //LOOPS
+
+let count = 1;
+
+while(count <= 100) {
+    console.log(count)
+    count = count + 1;
+}
+
+
 
 //let count = 1;
 
